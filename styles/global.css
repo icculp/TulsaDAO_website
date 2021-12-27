@@ -94,12 +94,12 @@ body {
 }
 html,
 body {
-  color: #fff;
-  background-color: #FFFFFF;
+  color: #111;
+  background-color: #fff;
 }
 ::selection {
-  background-color: #0070f3;
-  color: #fff;
+  background-color: #fff;
+  color: #0070f3;
 }
 [role='grid']:focus {
   outline: none;
