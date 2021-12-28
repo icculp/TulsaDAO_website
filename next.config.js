@@ -16,6 +16,7 @@
 
 module.exports = {
   images: {
+    disableStaticImages: true,
     domains: [
       'www.datocms-assets.com',
       'a.storyblok.com',
