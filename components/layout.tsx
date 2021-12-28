@@ -64,7 +64,8 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                 </Link>
               ))}
             </div>
-
+            <div className={cn(styles['header-right'])}>
+            </div>
           </header>
         )}
         <div className={styles.page}>
