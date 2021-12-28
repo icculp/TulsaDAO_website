@@ -32,7 +32,7 @@ export default function Hero() {
       >
         {SITE_DESCRIPTION}
       </h2>
-      <img src='..public\Full_Lockup_Transparent.png'></img>
+      <img src='@public/Full_Lockup_Transparent.png'></img>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         TulsaDAO, Bitch! {BRAND_NAME}
         <br className={styleUtils['show-on-desktop']} /> global user conference
