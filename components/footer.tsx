@@ -29,6 +29,7 @@ export function HostedByVercel() {
       rel="noopener noreferrer"
     >
       <div className={styles['secondary-text']}></div>
+    </a>
   );
 }
 
