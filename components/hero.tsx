@@ -18,7 +18,7 @@ import cn from 'classnames';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
-import car from "../public/Full_Lockup_transparent.png";
+import car from "public/Full_Lockup_transparent.png";
 
 export default function Hero() {
   return (
