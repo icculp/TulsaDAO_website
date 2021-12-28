@@ -18,9 +18,6 @@ import cn from 'classnames';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
-import Full_Lockup_Transparent from '@public/Full_Lockup_Transparent.png';
-
-const fullT = require('../public/Full_Lockup_Transparent.png');
 
 export default function Hero() {
   return (
