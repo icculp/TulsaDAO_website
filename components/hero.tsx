@@ -18,7 +18,7 @@ import cn from 'classnames';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
-import FullT from '@public/Full_Lockup_Transparent.png';
+import Full_Lockup_Transparent from '@public';
 
 const fullT = require('../public/Full_Lockup_Transparent.png');
 
@@ -35,7 +35,7 @@ export default function Hero() {
       >
         {SITE_DESCRIPTION}
       </h2>
-      <img src={FullT}></img>
+      <img src={Full_Lockup_Transparent}></img>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         TulsaDAO, Bitch! {BRAND_NAME}
         <br className={styleUtils['show-on-desktop']} /> global user conference
