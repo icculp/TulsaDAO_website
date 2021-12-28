@@ -34,10 +34,10 @@ export function HostedByVercel() {
   );
 }
 42-45
-        /**<div className={styles['footer-hostedby']}>
+        <div className={styles['footer-hostedby']}>
           <HostedByVercel />
           <div className={styles['footer-separator']} />
-        </div>*/
+        </div>
 */
 
 export default function Footer() {
