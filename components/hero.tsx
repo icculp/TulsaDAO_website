@@ -18,6 +18,7 @@ import cn from 'classnames';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
+import car from "../public/Full_Lockup_transparent.png";
 
 export default function Hero() {
   return (
@@ -32,8 +33,8 @@ export default function Hero() {
       >
         {SITE_DESCRIPTION}
       </h2>
-      <Image src="public/Full_Lockup_Transparent.png" />
-      {/* <img src='../public/Full_Lockup_Transparent.png'></img> */}
+      {/* <Image src="/Full_Lockup_Transparent.png" /> */}
+      <img src={car}></img>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         TulsaDAO, Bitch! {BRAND_NAME}
         <br className={styleUtils['show-on-desktop']} /> global user conference
