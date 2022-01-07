@@ -117,9 +117,8 @@ export default function Hero() {
             />  */}
        <img
         id="logo"
-        class="next-particle"
+        className="next-particle"
         src='/Full_Lockup_Transparent.png'
-
         scale="0.1"
        />
       <h2
