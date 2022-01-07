@@ -23,7 +23,7 @@ export const SITE_NAME = 'TulsaDAO';
 export const META_DESCRIPTION =
   'This is the website for TulsaDAO';
 export const SITE_DESCRIPTION =
-  'A mission driven, self-organizing entity focused on the Bitcoin and digial assets industry.';
+  'TulsaDAO is a mission driven, self-organizing entity focused on fostering coordination, education, and economic activity within the digital assets space for the greater benefit of Tulsa.';
 export const DATE = 'October 27, 2022';
 export const SHORT_DATE = 'Oct 27 - 9:00am PST';
 export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
