@@ -120,7 +120,6 @@ export default function Hero() {
         id="logo"
         className="next-particle"
         src='/Full_Lockup_Transparent.png'
-        style={{"margin-top": "40px"}}
        />
       
       {/* <Image src="public/Full_Lockup_Transparent.png" /> */}
