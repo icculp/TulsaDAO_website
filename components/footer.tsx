@@ -36,6 +36,13 @@ export function HostedByVercel() {
 
 
 export default function Footer() {
+  const socialProps = {
+    width: "100px",
+    height: "100px", 
+    target: "_blank",
+    className: styles['footer-social']
+  }
+
   return (
     <footer className={cn(styles.footer)}>
       <div className={styles['footer-legal']}>
@@ -44,13 +51,13 @@ export default function Footer() {
           rights reserved.
         </div>
         <div  className={styles['footer-social']} >
-          <SocialIcon url="https://twitter.com/tulsadao" width="100px" height="100px" target="_blank" className={styles['footer-social']} />
-          <SocialIcon url="https://linkedin.com/in/tulsadao" target="_blank" className={styles['footer-social']} />
-          <SocialIcon url="https://discord.gg/okie" target="_blank" className={styles['footer-social']} />
-          <SocialIcon url="https://www.facebook.com/groups/2535157100090498" target="_blank" className={styles['footer-social']} />
-          <SocialIcon url="https://www.github.com/icculp/tulsadao" target="_blank" className={styles['footer-social']} />
-          <SocialIcon title="mailto" url="mailto" target="_blank" className={styles['footer-social']} />
-          <SocialIcon url="https://www.instagram.com/tulsadao" target="_blank" className={styles['footer-social']} />
+          <SocialIcon url="https://twitter.com/tulsadao"  />
+          <SocialIcon url="https://linkedin.com/in/tulsadao" {...socialProps} />
+          <SocialIcon url="https://discord.gg/okie" {...socialProps} />
+          <SocialIcon url="https://www.facebook.com/groups/2535157100090498" {...socialProps} />
+          <SocialIcon url="https://www.github.com/icculp/tulsadao" {...socialProps} />
+          <SocialIcon url="mailto" {...socialProps} />
+          <SocialIcon url="https://www.instagram.com/tulsadao" {...socialProps} />
         </div>
 
         <div className={styles['footer-center-group']}>
