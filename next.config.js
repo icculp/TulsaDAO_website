@@ -26,5 +26,10 @@ module.exports = {
       'localhost' // For Strapi
     ],
     imageSizes: [24, 64, 300]
-  }
+  },
 };
+
+
+// experimental: {
+//   concurrentFeatures: true
+// }

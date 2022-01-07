@@ -30,7 +30,7 @@ export default function Logo({ textSecondaryColor = 'var(--accents-5)' }) {
           style={{ ['--color' as string]: textSecondaryColor }}
           className={styles['text-secondary']}
         >
-          {SITE_NAME_MULTILINE[1]}
+          {SITE_NAME_MULTILINE[1]} asdfsadf
         </div>
       </div>
     </div>

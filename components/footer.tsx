@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+ import { SocialIcon } from 'react-social-icons';
 import cn from 'classnames';
 import VercelLogo from '@components/icons/icon-platform';
 import styles from './footer.module.css';
@@ -39,11 +39,20 @@ export default function Footer() {
   return (
     <footer className={cn(styles.footer)}>
       <div className={styles['footer-legal']}>
-          <div className={styles['footer-separator']} />
         <div className={styles['footer-copyright']}>
-          Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
+          © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
           rights reserved.
         </div>
+        <div  className={styles['footer-social']} >
+          <SocialIcon url="https://twitter.com/tulsadao" width="100px" height="100px" target="_blank" className={styles['footer-social']} />
+          <SocialIcon url="https://linkedin.com/in/tulsadao" target="_blank" className={styles['footer-social']} />
+          <SocialIcon url="https://discord.gg/okie" target="_blank" className={styles['footer-social']} />
+          <SocialIcon url="https://www.facebook.com/groups/2535157100090498" target="_blank" className={styles['footer-social']} />
+          <SocialIcon url="https://www.github.com/icculp/tulsadao" target="_blank" className={styles['footer-social']} />
+          <SocialIcon title="mailto" url="mailto" target="_blank" className={styles['footer-social']} />
+          <SocialIcon url="https://www.instagram.com/tulsadao" target="_blank" className={styles['footer-social']} />
+        </div>
+
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
             <a
@@ -84,5 +93,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    
   );
 }

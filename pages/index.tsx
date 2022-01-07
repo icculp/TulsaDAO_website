@@ -43,5 +43,6 @@ export default function Conf() {
         defaultPageState={query.ticketNumber ? 'ticket' : 'registration'}
       />
     </Page>
+    
   );
 }

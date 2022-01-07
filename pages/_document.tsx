@@ -24,6 +24,9 @@ export default class CustomDocument extends Document {
         <body className="loading">
           <Main />
           <NextScript />
+          <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-documentation.js"></script>
+        <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-interaction.js"></script>
         </body>
       </Html>
     );

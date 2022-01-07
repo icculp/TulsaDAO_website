@@ -68,6 +68,7 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
             content={image.startsWith('https://') ? image : `${SITE_URL}${image}`}
           />
         )}
+        <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-documentation.css" rel="stylesheet" />
       </Head>
       {children}
     </div>

@@ -76,6 +76,7 @@
 
   .footer-copyright {
     margin-bottom: 0;
+    margin-left: 20px;
   }
 
   .footer-center-group {
@@ -93,6 +94,15 @@
 
 .footer-paragraph {
   margin: 0;
+}
+
+.footer-social {
+  margin: 1vh;
+}
+
+.footer-social>a {
+  height: 50px !important;
+  width: 50px !important;
 }
 
 .secondary-text {
