@@ -119,7 +119,6 @@ export default function Hero() {
         id="logo"
         className="next-particle"
         src='/Full_Lockup_Transparent.png'
-        scale="0.1"
        />
       <h2
         className={cn(
