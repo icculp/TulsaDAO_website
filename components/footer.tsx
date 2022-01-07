@@ -51,7 +51,7 @@ export default function Footer() {
           rights reserved.
         </div>
         <div  className={styles['footer-social']} >
-          <SocialIcon url="https://twitter.com/tulsadao"  />
+          <SocialIcon url="https://twitter.com/tulsadao" {...socialProps} />
           <SocialIcon url="https://linkedin.com/in/tulsadao" {...socialProps} />
           <SocialIcon url="https://discord.gg/okie" {...socialProps} />
           <SocialIcon url="https://www.facebook.com/groups/2535157100090498" {...socialProps} />

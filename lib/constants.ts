@@ -21,9 +21,9 @@ export const BRAND_NAME = 'TulsaDAO';
 export const SITE_NAME_MULTILINE = ['Tulsa', 'DAO'];
 export const SITE_NAME = 'TulsaDAO';
 export const META_DESCRIPTION =
-  'This is the website for TulsaDAO';
+  'This is the website for TulsaDAO, a DAO for Tulsans to get involved in the digial assets space.';
 export const SITE_DESCRIPTION =
-  'TulsaDAO is a mission driven, self-organizing entity focused on fostering coordination, education, and economic activity within the digital assets space for the greater benefit of Tulsa.';
+  'Mission driven, member-owned, autonomous and transparent; a self-organizing entity focused on fostering coordination, education, and economic activity within the digital assets space for the greater benefit of Tulsa.';
 export const DATE = 'October 27, 2022';
 export const SHORT_DATE = 'Oct 27 - 9:00am PST';
 export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
@@ -37,7 +37,7 @@ export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
 export const CODE_OF_CONDUCT =
   'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
-export const REPO = 'https://github.com/icculp/tulsadao-website';
+export const REPO = 'https://github.com/icculp/tulsa-dao-website';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {

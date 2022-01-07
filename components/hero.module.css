@@ -27,6 +27,15 @@
   margin: 0 0 25px;
 }
 
+.hero2 {
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 25px;
+}
+
 .info {
   font-size: 20px;
   line-height: 1.4;
@@ -34,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: var(--space-8x);
+  margin-bottom: var(--space-2x);
   color: var(--brand);
 }
 
@@ -69,12 +78,12 @@
 
   .info {
     font-size: 24px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 
   .description {
     font-size: var(--space-8x);
-    max-width: 531px;
+    max-width: 1200px;
     margin: 40px auto;
   }
 }

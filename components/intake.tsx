@@ -16,13 +16,7 @@
 
 import { useState } from 'react';
 import { PageState, ConfDataContext, UserData } from '@lib/hooks/use-conf-data';
-import Ticket from './ticket';
-import Layout from './layout';
-import ConfContainer from './conf-container';
-import Hero from './hero';
-import Intake from './intake'
-import Form from './form';
-import LearnMore from './learn-more';
+
 
 type Props = {
   defaultUserData: UserData;
@@ -30,7 +24,7 @@ type Props = {
   defaultPageState?: PageState;
 };
 
-export default function Conf({
+export default function Intake({
   defaultUserData,
   sharePage,
   defaultPageState = 'registration'
@@ -39,11 +33,9 @@ export default function Conf({
   const [pageState, setPageState] = useState<PageState>(defaultPageState);
 
   return (
-    <Layout>
-      <br /><br />
-      <Hero />
-      <Intake />
-    </Layout>
+    
+    <iframe id='intake' title='intake' src="https://docs.google.com/forms/d/e/1FAIpQLSdwQyXaCS8VI_s9BvcF28A1maBqtke04r66h7MxidPtJ6xVQw/viewform?embedded=true" >Loading intake form…</iframe>
+    
     // <ConfDataContext.Provider
     //   value={{
     //     userData,

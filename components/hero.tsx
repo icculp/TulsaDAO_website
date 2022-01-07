@@ -28,6 +28,7 @@ import ParticleImage, {
   forces,
   ParticleForce
 } from "react-particle-image";
+import Intake from './intake';
 
 // const particleOptions: ParticleOptions = {
 //   filter: ({ x, y, image }) => {
@@ -101,62 +102,78 @@ export default function Hero() {
 
 
 <div className={styles.wrapper}>
-    {/* <ParticleImage
+     {/* <ParticleImage
               src={"/Full_Lockup_Transparent.png"}
               scale={0.5}
               width="1000"
               height="500"
               entropy={25}
-              maxParticles={15000}
+              maxParticles={20000}
               particleOptions={particleOptions}
               mouseMoveForce={motionForce}
               touchMoveForce={motionForce}
               className='.particles-wrapper'
               backgroundColor="#f8f1e0"
               
-            />  */}
+            />   */}
        <img
         id="logo"
         className="next-particle"
         src='/Full_Lockup_Transparent.png'
+        style={{"margin-top": "40px"}}
        />
-      <h2
-        className={cn(
-          styleUtils.appear,
-          styleUtils['appear-second'],
-          styles.description
-        )}
-      >
-        {SITE_DESCRIPTION}asdfdfsafdsa
-      </h2>
       
       {/* <Image src="public/Full_Lockup_Transparent.png" /> */}
       {/* <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> */}
 
       {/* <Image src='/Full_Lockup_Transparent.png' width="1000" height="1000" /> */}
-      <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-        TulsaDAO, Bitch! {BRAND_NAME}
-        <br className={styleUtils['show-on-desktop']} /> global user conference
+      <h1 className={cn(styleUtils.appear, styleUtils['appear-first'], styles.hero)}>
+        TulsaDAO
+      </h1>
+      <h1 className={cn(styleUtils.appear, styleUtils['appear-second'], styles.hero2)}>
+        <u>D</u>ecentralized
+      </h1>
+      <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero2)}>
+        <u>A</u>utonomous
+      </h1>
+      <h1 className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.hero2)}>
+        <u>O</u>rganization
       </h1>
       <h2
         className={cn(
           styleUtils.appear,
-          styleUtils['appear-third'],
+          styleUtils['appear-sixth'],
+          styles.description
+        )}
+      >
+        {SITE_DESCRIPTION}
+      </h2>
+      <h2
+        className={cn(
+          styleUtils.appear,
+          styleUtils['appear-seventh'],
           styleUtils['show-on-tablet'],
           styles.description
         )}
       >
         {SITE_DESCRIPTION}
       </h2>
-      <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-        <p>{DATE}</p>
+      <div className={cn(styleUtils.appear, styleUtils['appear-eighth'], styles.info)}>
+        <p>client.aragon.org/#/tulsadao</p>
         <div className={styles['description-separator']} />
         <p>
-          <strong>Online</strong>
+          <strong style={{"color": "black"}}>Rinkby Testnet Unusable</strong>
+        </p>
+      </div>
+      <div className={cn(styleUtils.appear, styleUtils['appear-ninth'], styles.info)}>
+        <p>client.aragon.org/#/tulsadaov2/</p>
+        <div className={styles['description-separator']} />
+        <p>
+          <strong>Rinkby Testnet Online</strong>
         </p>
       </div>
     </div>
-
+    // <Intake />
     
   );
 }
