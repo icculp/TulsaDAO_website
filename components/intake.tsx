@@ -32,9 +32,14 @@ export default function Intake() {
 //   const [userData, setUserData] = useState<UserData>(defaultUserData);
 //   const [pageState, setPageState] = useState<PageState>(defaultPageState);
 //   static defaultProps = {profileStore:{}}
+  const iframeProps = {
+    "id": "intake",
+    "title": "intake",
+    "style": {"background-color": "#e6d6be"}
+  }
   return(
     
-    <iframe id='intake' title='intake' style={{"background-color": "#e6d6be"}} src="https://docs.google.com/forms/d/e/1FAIpQLSdwQyXaCS8VI_s9BvcF28A1maBqtke04r66h7MxidPtJ6xVQw/viewform?embedded=true" >Loading intake form…</iframe>
+    <iframe {...iframeProps} src="https://docs.google.com/forms/d/e/1FAIpQLSdwQyXaCS8VI_s9BvcF28A1maBqtke04r66h7MxidPtJ6xVQw/viewform?embedded=true" >Loading intake form…</iframe>
     
     // <ConfDataContext.Provider
     //   value={{

@@ -97,9 +97,14 @@ const motionForce = (x: number, y: number): ParticleForce => {
 
 
 
+
+
 export default function Hero() {
+  // const thing = NextParticle("/RedLockupTransparent.png")
   return (
 
+
+    
 
 <div className={styles.wrapper}>
      {/* <ParticleImage
@@ -120,6 +125,13 @@ export default function Hero() {
         id="logo"
         className="next-particle"
         src='/Full_Lockup_Transparent.png'
+        data-particle-gap="2"
+        data-max-width="80%"
+        data-max-height="80%"
+
+        data-noise="20"
+        
+
        />
       
       {/* <Image src="public/Full_Lockup_Transparent.png" /> */}
