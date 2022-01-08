@@ -34,7 +34,7 @@ export default function Intake() {
 //   static defaultProps = {profileStore:{}}
   return(
     
-    <iframe id='intake' title='intake' src="https://docs.google.com/forms/d/e/1FAIpQLSdwQyXaCS8VI_s9BvcF28A1maBqtke04r66h7MxidPtJ6xVQw/viewform?embedded=true" >Loading intake form…</iframe>
+    <iframe id='intake' title='intake' style={{"background-color": "#e6d6be"}} src="https://docs.google.com/forms/d/e/1FAIpQLSdwQyXaCS8VI_s9BvcF28A1maBqtke04r66h7MxidPtJ6xVQw/viewform?embedded=true" >Loading intake form…</iframe>
     
     // <ConfDataContext.Provider
     //   value={{

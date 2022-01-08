@@ -19,12 +19,12 @@ import { SkipNavContent } from '@reach/skip-nav';
 
 import Page from '@components/page';
 import ConfContent from '@components/index';
-import { META_DESCRIPTION } from '@lib/constants';
+import { META_DESCRIPTION, TITLE } from '@lib/constants';
 
 export default function Conf() {
   const { query } = useRouter();
   const meta = {
-    title: 'Demo - Virtual Event Starter Kit',
+    title: 'TulsaDAO',
     description: META_DESCRIPTION
   };
   const ticketNumber = query.ticketNumber?.toString();
