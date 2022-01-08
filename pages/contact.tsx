@@ -36,7 +36,7 @@ export default function Contact (){
   return (
     <Page meta={meta}>
       <Layout>
-        <Header hero="Contact"  />
+        <Header hero="Contact" description={meta.description} />
 
         <SocialIcon url="https://twitter.com/tulsadao" {...socialProps} />
         <SocialIcon url="https://linkedin.com/in/tulsadao" {...socialProps} />
