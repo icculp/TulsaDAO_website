@@ -35,7 +35,6 @@ export default function Intake() {
   const iframeProps = {
     "id": "intake",
     "title": "intake",
-    "style": {"background-color": "#e6d6be"}
   }
   return(
     

@@ -126,6 +126,7 @@ iframe {
   float: "center";
   height: 1000px;
   border: 1;
+  background-color: #e6d6be;
 }
 
 a[role='button'] {
