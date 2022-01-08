@@ -121,18 +121,7 @@ export default function Hero() {
               backgroundColor="#f8f1e0"
               
             />   */}
-       <img
-        id="logo"
-        className="next-particle"
-        src='/Full_Lockup_Transparent.png'
-        data-particle-gap="2"
-        data-max-width="80%"
-        data-max-height="80%"
 
-        data-noise="20"
-        
-
-       />
       
       {/* <Image src="public/Full_Lockup_Transparent.png" /> */}
       {/* <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> */}

@@ -70,6 +70,18 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
         )}
         <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-documentation.css" rel="stylesheet" />
       </Head>
+      <img
+        id="logo"
+        className="next-particle"
+        src='/Full_Lockup_Transparent.png'
+        data-particle-gap="2"
+        data-max-width="80%"
+        data-max-height="80%"
+
+        data-noise="20"
+        
+
+       />
       {children}
     </div>
   );

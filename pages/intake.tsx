@@ -16,8 +16,7 @@
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-export default class CustomDocument extends Document {
-  render() {
+export default function Intake (){
     return (
       <Html lang="en">
         <Head>
@@ -33,18 +32,12 @@ export default class CustomDocument extends Document {
             />
         </Head>
         <body className="loading">
-          
           <Main />
           <NextScript />
           <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-documentation.js"></script>
         <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-interaction.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         </body>
       </Html>
     );
-  }
 }
