@@ -15,13 +15,14 @@
  */
 
 export const SITE_URL = 'https://tulsadao.org';
+export const TITLE = 'TulsaDAO';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'tulsadao';
 export const BRAND_NAME = 'TulsaDAO';
 export const SITE_NAME_MULTILINE = ['Tulsa', 'DAO'];
 export const SITE_NAME = 'TulsaDAO';
 export const META_DESCRIPTION =
-  'This is the website for TulsaDAO, a DAO for Tulsans to get involved in the digial assets space.';
+  'TulsaDAO, a DAO for Tulsans to get involved in the digial assets space.';
 export const SITE_DESCRIPTION =
   'Mission driven, member-owned, autonomous and transparent; a self-organizing entity focused on fostering coordination, education, and economic activity within the digital assets space for the greater benefit of Tulsa.';
 export const DATE = 'October 27, 2022';
