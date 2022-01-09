@@ -15,29 +15,25 @@
  */
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Header from '@components/header';
+import Layout from '@components/layout';
+import Page from '@components/page';
+import Intake_embed from '@components/intake_embed';
+import { META_DESCRIPTION, TITLE } from '@lib/constants';
 
 export default function Intake (){
-    return (
-      <Html lang="en">
-        <Head>
-        
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-9HD8W29R89"></script>
-            <script dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+  const meta = {
+    title: TITLE,
+    description: META_DESCRIPTION
+  };
 
-              gtag('config', 'G-9HD8W29R89');`}}
-            />
-        </Head>
-        <body className="loading">
-          <Main />
-          <NextScript />
-          <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-documentation.js"></script>
-        <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-interaction.js"></script>
-        </body>
-      </Html>
+    return (
+      <Page meta={meta}>
+      <Layout>
+        <Header hero="Contact" description={meta.description} />
+        <Intake_embed />
+
+      </Layout>
+    </Page>
     );
 }

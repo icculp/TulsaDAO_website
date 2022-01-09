@@ -24,7 +24,7 @@ type Props = {
   defaultPageState?: PageState;
 };
 
-export default function Intake() {
+export default function Intake_embed() {
 //   defaultUserData,
 //   sharePage,
 //   defaultPageState = 'registration'

@@ -45,14 +45,14 @@ export const NAVIGATION = [
     name: "home",
     route: "/"
   },
-  // {
-  //   name: "intake",
-  //   route: "/intake"
-  // },
-  // {
-  //   name: "contact",
-  //   route: "/contact"
-  // },
+  {
+    name: "intake",
+    route: "/intake"
+  },
+  {
+    name: "contact",
+    route: "/contact"
+  },
 ]
 
 

@@ -20,7 +20,7 @@ import Ticket from './ticket';
 import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
-import Intake from './intake'
+import Intake_embed from './intake_embed'
 import Form from './form';
 import LearnMore from './learn-more';
 
@@ -42,7 +42,7 @@ export default function Conf({
     <Layout>
       <br /><br />
       <Hero />
-      <Intake />
+      <Intake_embed />
     </Layout>
     // <ConfDataContext.Provider
     //   value={{
