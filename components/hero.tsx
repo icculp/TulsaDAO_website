@@ -28,7 +28,7 @@ import ParticleImage, {
   forces,
   ParticleForce
 } from "react-particle-image";
-import Intake from './intake';
+// import Intake_embed from './intake_embed';
 
 // const particleOptions: ParticleOptions = {
 //   filter: ({ x, y, image }) => {
