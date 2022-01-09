@@ -47,64 +47,64 @@ export default function Contact (){
         <SocialIcon url="https://www.instagram.com/tulsadao" {...socialProps} />
 
 
-        <div class="container mt-5 mb-5 d-flex justify-content-center">
-    <ul class="social-list">
+        <div className="container mt-5 mb-5 d-flex justify-content-center">
+    <ul className="social-list">
         <li>
-            <div class="maincard p-3">
-                <div class="thecard">
-                    <div class="thefront text-center py-4 facebook">
-                        <div class="social-icon"> <i class="fa fa-facebook fa-2x"></i> </div>
+            <div className="maincard p-3">
+                <div className="thecard">
+                    <div className="thefront text-center py-4 facebook">
+                        <div className="social-icon"> <i className="fa fa-facebook fa-2x"></i> </div>
                     </div>
-                    <div class="theback py-3 px-3 text-center facebook">
-                        <div class="social-text mt-1"> <small class="font-weight-bold">Facebook</small> </div>
+                    <div className="theback py-3 px-3 text-center facebook">
+                        <div className="social-text mt-1"> <small className="font-weight-bold">Facebook</small> </div>
                     </div>
                 </div>
             </div>
         </li>
         <li>
-            <div class="maincard p-3">
-                <div class="thecard">
-                    <div class="thefront text-center py-4 instagram">
-                        <div class="social-icon"> <i class="fa fa-instagram fa-2x"></i> </div>
+            <div className="maincard p-3">
+                <div className="thecard">
+                    <div className="thefront text-center py-4 instagram">
+                        <div className="social-icon"> <i className="fa fa-instagram fa-2x"></i> </div>
                     </div>
-                    <div class="theback py-3 px-3 text-center instagram">
-                        <div class="social-text mt-1"> <small class="font-weight-bold">Instagram</small> </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="maincard p-3">
-                <div class="thecard">
-                    <div class="thefront text-center py-4 youtube">
-                        <div class="social-icon"> <i class="fa fa-youtube fa-2x"></i> </div>
-                    </div>
-                    <div class="theback py-3 px-3 text-center youtube">
-                        <div class="social-text mt-1"> <small class="font-weight-bold">Youtube</small> </div>
+                    <div className="theback py-3 px-3 text-center instagram">
+                        <div className="social-text mt-1"> <small className="font-weight-bold">Instagram</small> </div>
                     </div>
                 </div>
             </div>
         </li>
         <li>
-            <div class="maincard p-3">
-                <div class="thecard">
-                    <div class="thefront text-center py-4 whatsapp">
-                        <div class="social-icon"> <i class="fa fa-whatsapp fa-2x"></i> </div>
+            <div className="maincard p-3">
+                <div className="thecard">
+                    <div className="thefront text-center py-4 youtube">
+                        <div className="social-icon"> <i className="fa fa-youtube fa-2x"></i> </div>
                     </div>
-                    <div class="theback py-3 px-3 text-center whatsapp">
-                        <div class="social-text mt-1"> <small class="font-weight-bold">Whatsapp</small> </div>
+                    <div className="theback py-3 px-3 text-center youtube">
+                        <div className="social-text mt-1"> <small className="font-weight-bold">Youtube</small> </div>
                     </div>
                 </div>
             </div>
         </li>
         <li>
-            <div class="maincard p-3">
-                <div class="thecard">
-                    <div class="thefront text-center py-4 pinterest">
-                        <div class="social-icon"> <i class="fa fa-pinterest fa-2x"></i> </div>
+            <div className="maincard p-3">
+                <div className="thecard">
+                    <div className="thefront text-center py-4 whatsapp">
+                        <div className="social-icon"> <i className="fa fa-whatsapp fa-2x"></i> </div>
                     </div>
-                    <div class="theback py-3 px-3 text-center pinterest">
-                        <div class="social-text mt-1"> <small class="font-weight-bold">Pinterest</small> </div>
+                    <div className="theback py-3 px-3 text-center whatsapp">
+                        <div className="social-text mt-1"> <small className="font-weight-bold">Whatsapp</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div className="maincard p-3">
+                <div className="thecard">
+                    <div className="thefront text-center py-4 pinterest">
+                        <div className="social-icon"> <i className="fa fa-pinterest fa-2x"></i> </div>
+                    </div>
+                    <div className="theback py-3 px-3 text-center pinterest">
+                        <div className="social-text mt-1"> <small className="font-weight-bold">Pinterest</small> </div>
                     </div>
                 </div>
             </div>
